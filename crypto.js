@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ).
         then(function(importedKey) {
             aesKey = importedKey;
-            reader.readAsArrayBuffer(document.getElementById("source-file").files[0]);
+            reader.readAsArrayBuffer(sourceFile);
         }).
         catch(function(err) {
             alert("Key import and file read failed: " + err.message);
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ).
         then(function(importedKey) {
             aesKey = importedKey;
-            reader.readAsArrayBuffer(document.getElementById("source-file").files[0]);
+            reader.readAsArrayBuffer(sourceFile);
         }).
         catch(function(err) {
             alert("Key import and file read failed: " + err.message);
