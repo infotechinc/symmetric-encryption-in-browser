@@ -7,7 +7,7 @@ This web page with associated JavaScript allows a user to:
 * Encrypt local files with that key, and save the encrypted version
 * Decrypt previously encrypted files with the same key, and save the decrypted version
 
-This example is provided to illustrate how to use the W3C
+This [example](https://infotechinc.github.io/symmetric-encryption-in-browser/) is provided to illustrate how to use the W3C
 [Web Cryptography API](http://www.w3.org/TR/WebCryptoAPI/ "API Draft")
 to perform symmetric encryption inside a web browser. It is based
 on the [working draft](http://www.w3.org/TR/2014/WD-WebCryptoAPI-20140325/ "Dated Working Draft")
